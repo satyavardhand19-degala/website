@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notable Figures</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #f0f8ff; /* Light Blue background */
+            padding: 30px;
+            text-align: center;
+        }
+        h1 {
+            color: #4a148c; /* Deep Purple */
+            margin-bottom: 5px;
+        }
+        p {
+            color: #6a5acd; /* Slate Blue */
+            font-size: 0.9em;
+            margin-bottom: 40px;
+        }
+        .grid-container {
+            display: grid;
+            /* Creates columns that are at least 250px wide, adjusting to screen size */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .figure-card {
+            background-color: white;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .figure-card:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
+        }
+        .figure-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Ensures image covers the space without distortion */
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .figure-card h2 a {
+            color: #4a148c;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .figure-card h2 a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pillars of India</h1>
+    <p>(Leaders, Innovators, and Icons)</p>
+    
+    <div class="grid-container">
+
+        <div class="figure-card">
+            <img src="assets/Modiimages.webp" alt="Narendra Modi">
+            <h2><a href="NarendraModi.html">Narendra Damodardas Modi</a></h2>
+        </div>
+
+        <div class="figure-card">
+            <img src="pawankalayan.jpg" alt="Konidela Pawan Kalyan">
+            <h2><a href="pawankalyan.html">Konidela Pawan Kalyan</a></h2>
+        </div>
+
+        <div class="figure-card">
+            <img src="assets/Virat Kohli.png" alt="Virat Kohli">
+            <h2><a href="ViratKohli.html">Virat Kohli</a></h2>
+        </div>
+        
+        <div class="figure-card">
+            <img src="assets/ViratKohli.png" alt="Virat Kohli">
+            <h2><a href="ViratKohli.html">Virat Kohli</a></h2>
+        </div>
+        
+        <div class="figure-card">
+            <img src="assets/NeerajChopra.jpg" alt="Neeraj Chopra">
+            <h2><a href="NeerajChopra.html">Neeraj Chopra</a></h2>
+        </div>
+        
+        <div class="figure-card">
+            <img src="assets/LataMangeshkar.jpg" alt="Lata Mangeshkar">
+            <h2><a href="LataMangeshkar.html">Lata Mangeshkar</a></h2>
+        </div>
+
+    </div>
+</body>
+</html>
